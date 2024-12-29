@@ -1,0 +1,57 @@
+.task {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .task:hover {
+    transform: scale(1.02);
+  }
+  
+  .task h4 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+  }
+  
+  .task p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .task-actions {
+    margin-top: 10px;
+  }
+  
+  .task-actions button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 0.9em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s ease;
+  }
+  
+  .task-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task.to-do {
+    border-left: 4px solid #f8c3d6;
+  }
+  
+  .task.doing {
+    border-left: 4px solid #ffd700;
+  }
+  
+  .task.done {
+    border-left: 4px solid #8bc34a;
+  }
+  
